@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="enabled"
+        app:title="@string/pref_enabled_name_off"
+        app:summaryOn="@string/pref_enabled_desc"
+        app:summaryOff="@string/pref_enabled_desc"
+        app:iconSpaceReserved="false"
+        app:layout="@layout/custom_preference_switch" />
+
+    <PreferenceCategory
+        app:title="@string/pref_header_soundboard"
+        app:iconSpaceReserved="false"
+        app:allowDividerBelow="false"
+        app:layout="@layout/custom_preference_category_soundboard">
+
+        <com.rudisec.echocast.SoundboardPreference
+            app:key="soundboard_container"
+            app:persistent="false"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/pref_header_about"
+        app:iconSpaceReserved="false"
+        app:allowDividerBelow="false"
+        app:layout="@layout/custom_preference_category_about">
+
+        <Preference
+            app:key="version"
+            app:persistent="false"
+            app:title="@string/pref_version_name"
+            app:iconSpaceReserved="false"
+            app:layout="@layout/custom_preference_version" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

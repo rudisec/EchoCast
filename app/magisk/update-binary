@@ -1,0 +1,63 @@
+#!/system/bin/sh
+TMPDIR=/dev/tmp
+MOUNTPATH=/data/adb/modules
+MODID=com.rudisec.echocast
+MAGISK_VER_CODE=24000
+
+# Print to screen and log
+ui_print() {
+  echo "$1"
+  echo "$1" >> /cache/magisk.log
+}
+
+# Show welcome banner
+ui_print " "
+ui_print "╔═════════════════════════╗"
+ui_print "║       EchoCast         ║"
+ui_print "║   Audio Call Player    ║"
+ui_print "║      v1.0 rudisec      ║"
+ui_print "╚═════════════════════════╝"
+ui_print " "
+
+# Setup
+rm -rf $TMPDIR 2>/dev/null
+mkdir -p $TMPDIR
+
+ui_print "- Extracting module files"
+unzip -o "$3" -d $TMPDIR >/dev/null 2>&1
+
+ui_print "- Setting up module"
+rm -rf $MOUNTPATH/$MODID 2>/dev/null
+mkdir -p $MOUNTPATH/$MODID
+mkdir -p $MOUNTPATH/$MODID/system/priv-app/$MODID
+mkdir -p $MOUNTPATH/$MODID/system/etc/permissions
+
+ui_print "- Installing application"
+cp -rf $TMPDIR/system/priv-app/$MODID/* $MOUNTPATH/$MODID/system/priv-app/$MODID/
+ui_print "  App installed successfully"
+
+ui_print "- Setting up permissions"
+cp -rf $TMPDIR/system/etc/permissions/* $MOUNTPATH/$MODID/system/etc/permissions/
+ui_print "  Permissions configured"
+
+ui_print "- Copying module information"
+cp -f $TMPDIR/module.prop $MOUNTPATH/$MODID/
+ui_print "  Module info updated"
+
+ui_print "- Setting file permissions"
+set_perm_recursive $MOUNTPATH/$MODID 0 0 0755 0644
+set_perm_recursive $MOUNTPATH/$MODID/system/priv-app/$MODID 0 0 0755 0644
+set_perm_recursive $MOUNTPATH/$MODID/system/etc/permissions 0 0 0755 0644
+ui_print "  Permissions set correctly"
+
+ui_print "- Cleaning up"
+rm -rf $TMPDIR
+
+ui_print "✅ Installation completed!"
+ui_print "EchoCast has been installed as a system app"
+ui_print " "
+ui_print "Please reboot your device to complete"
+ui_print "the installation process."
+ui_print " "
+
+exit 0
