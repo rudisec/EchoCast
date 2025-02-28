@@ -32,14 +32,6 @@ EchoCast requires system-level permissions to function properly, so it must be i
 5. Reboot your device
 6. Open EchoCast from your app drawer
 
-### 🛠️ For Custom ROMs
-
-1. Download the latest EchoCast zip file from the [releases page](https://github.com/rudisec/EchoCast/releases)
-2. Extract the files from the `system/` folder
-3. Add these files to your custom ROM's system image
-4. Flash your custom ROM
-5. Open EchoCast from your app drawer
-
 ## 📱 Usage
 
 1. Open EchoCast
