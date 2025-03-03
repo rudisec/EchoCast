@@ -1,4 +1,4 @@
-# 🎧 EchoCast
+# 🎧 EchoCast - Audio Call Injector
 
 ![made with kotlin](https://img.shields.io/badge/Made%20with-Kotlin-purple?logo=kotlin)
 ![license badge](https://img.shields.io/badge/license-GPL--3.0-blue)
