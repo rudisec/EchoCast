@@ -86,20 +86,6 @@ EchoCast uses Android's InCallService API to detect active phone calls. When a c
 
 The application supports playing multiple audio files sequentially, with support for different play modes to suit your needs.
 
-## 🛠️ Building from Source
-
-EchoCast can be built using Android Studio or the Gradle command line:
-
-```bash
-# To build the APK
-./gradlew assembleDebug
-
-# To build the Magisk module zip
-./gradlew zipDebug
-```
-
-The output files will be in `app/build/distributions/debug/`.
-
 ## 📜 License
 
 EchoCast is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
