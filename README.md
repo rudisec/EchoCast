@@ -1,10 +1,12 @@
-# 🎧 EchoCast - Multi-Audio Call Player
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rudisec/EchoCast/main/docs/Logo-light.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rudisec/EchoCast/main/docs/Logo.png">
+    <img src="https://raw.githubusercontent.com/rudisec/EchoCast/main/docs/Logo.png" alt="EchoCast" width="800">
+  </picture>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rudisec/EchoCast/main/docs/Logo-light.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rudisec/EchoCast/main/docs/Logo.png">
-  <img src="https://raw.githubusercontent.com/rudisec/EchoCast/main/docs/Logo.png" alt="EchoCast" width="200">
-</picture>
+# 🎧 EchoCast - Multi-Audio Call Player
 
 EchoCast is an Android application that plays multiple audio files to the other party during phone calls. It allows you to create a playlist/soundboard and play sounds, music, or voice recordings to the person you're talking to.
 
