@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EchoCast</string>
+    <string name="quick_settings_label">EchoCast</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_persistent_name">Playback Status</string>
+    <string name="notification_channel_persistent_desc">Shows when audio is being played during calls</string>
+    <string name="notification_channel_alerts_name">Alerts</string>
+    <string name="notification_channel_alerts_desc">Error notifications</string>
+    <string name="notification_playback_in_progress">EchoCast Active</string>
+    <string name="notification_playback_failed">Playback Failed</string>
+    
+    <!-- Main Activity -->
+    <string name="enable_playback">Enable Playback</string>
+    <string name="enable_playback_description">Automatically play audio during phone calls</string>
+    <string name="playback_enabled">Playback Enabled</string>
+    <string name="playback_disabled">Playback Disabled</string>
+    <string name="play_mode">Play Mode</string>
+    <string name="play_mode_single">Manual</string>
+    <string name="shuffle_control">Shuffle Control</string>
+    <string name="play_shuffle">Play</string>
+    <string name="play_resume">Play / Resume</string>
+    <string name="pause_shuffle">Pause</string>
+    <string name="resume_shuffle">Resume</string>
+    <string name="shuffle_loop">Loop</string>
+    <string name="shuffle_no_call">Start a phone call first to use shuffle</string>
+    <string name="shuffle_no_audios">Add audios to the soundboard first</string>
+    <string name="tab_audio_player">Audio Player</string>
+    <string name="tab_ai">AI</string>
+    <string name="play_mode_loop">Loop</string>
+    <string name="play_mode_shuffle">Shuffle</string>
+    <string name="audio_playlist">Soundboard</string>
+    <string name="soundboard_subtitle">Manage and play your audio collection</string>
+    <string name="add_audio">Add Audio</string>
+    <string name="no_audio_files">No audio files added yet</string>
+    <string name="add_first_audio">Add your first audio file to get started</string>
+    <string name="remove">Remove</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="select_audio_file">Select Audio File</string>
+    <string name="audio_added">Audio added successfully</string>
+    <string name="audio_removed">Audio removed</string>
+    <string name="delete">Delete</string>
+    <string name="edit_name">Edit name</string>
+    <string name="edit_audio_name">Edit audio name</string>
+    <string name="name_updated">Name updated</string>
+    <string name="select_one_to_edit">Select only one item to edit</string>
+    <string name="audios_deleted">Audios deleted</string>
+    <string name="permissions_required">Permissions Required</string>
+    <string name="notification_permission_required">Notification permission is required for the service to work properly.</string>
+    <string name="grant_permission">Grant Permission</string>
+    
+    <!-- AI Tab -->
+    <string name="api_configuration">API Configuration</string>
+    <string name="elevenlabs_api_key_hint">ElevenLabs API Key</string>
+    <string name="voice_training">Voice Training</string>
+    <string name="voice_training_description">Configure API and upload voice samples to create custom voices</string>
+    <string name="text_to_audio">Text to Audio</string>
+    <string name="text_to_audio_description">Select a voice and generate audio from text to add to soundboard</string>
+    <string name="select_voice">Select Voice</string>
+    <string name="select_voice_sample">Select Voice Sample</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="voice_name_hint">Voice name</string>
+    <string name="enter_text_to_generate">Enter text to generate...</string>
+    <string name="generate_and_add_to_playlist">Generate and Add to Soundboard</string>
+    <string name="audio_generated_and_added">Audio generated and added</string>
+    <string name="no_voice_selected">No voice selected</string>
+    <string name="select_voice_for_tts">Select Voice for Text to Audio</string>
+    
+    <!-- Playback Controls -->
+    <string name="playback_controls">Playback Controls</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="volume">Volume</string>
+</resources>

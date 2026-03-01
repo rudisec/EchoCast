@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AI Voice Lab"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="24dp" />
+
+        <!-- API Configuration -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ElevenLabs API Key"
+            android:textSize="14sp"
+            android:textColor="@color/gray_600"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etApiKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="sk-..."
+            android:inputType="textPassword"
+            android:background="@drawable/bg_card_minimal"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Voice Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la Voz"
+            android:textSize="14sp"
+            android:textColor="@color/gray_600"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etVoiceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mi Voz"
+            android:background="@drawable/bg_card_minimal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Sample Upload -->
+        <Button
+            android:id="@+id/btnUploadSample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar Muestra de Voz"
+            android:backgroundTint="@color/gray_100"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvSampleStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No sample selected"
+            android:textSize="12sp"
+            android:textColor="@color/gray_500"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Text Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Texto a Generar"
+            android:textSize="14sp"
+            android:textColor="@color/gray_600"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etTtsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribe aquí..."
+            android:minLines="3"
+            android:gravity="top"
+            android:background="@drawable/bg_card_minimal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnGenerateAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generar Audio"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:textAllCaps="false" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"
+            android:indeterminateTint="@color/black" />
+
+    </LinearLayout>
+</ScrollView>

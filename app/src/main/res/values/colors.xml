@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Monochrome Palette -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Grays -->
+    <color name="gray_50">#FFF9F9F9</color>
+    <color name="gray_100">#FFF2F2F2</color>
+    <color name="gray_200">#FFE5E5E5</color>
+    <color name="gray_300">#FFD4D4D4</color>
+    <color name="gray_400">#FFA3A3A3</color>
+    <color name="gray_500">#FF737373</color>
+    <color name="gray_600">#FF525252</color>
+    <color name="gray_700">#FF404040</color>
+    <color name="gray_800">#FF262626</color>
+    <color name="gray_900">#FF171717</color>
+
+    <!-- Minimalist Palette -->
+    <color name="primary">@color/black</color>
+    <color name="on_primary">@color/white</color>
+    <color name="background">#FFEDEDED</color>
+    <color name="on_background">@color/black</color>
+    <color name="surface">@color/white</color>
+    <color name="on_surface">@color/black</color>
+    <color name="surface_variant">@color/gray_50</color>
+    <color name="on_surface_variant">@color/gray_600</color>
+    <color name="outline">@android:color/transparent</color>
+    <color name="outline_variant">@android:color/transparent</color>
+    <color name="error">@color/black</color>
+    <color name="on_error">@color/white</color>
+    <color name="success">#FF2E7D32</color>
+    <color name="on_success">@color/white</color>
+    
+    <!-- Material 3 Color Tokens -->
+    <color name="md_theme_light_primary">@color/black</color>
+    <color name="md_theme_light_onPrimary">@color/white</color>
+    <color name="md_theme_light_primaryContainer">@color/black</color>
+    <color name="md_theme_light_onPrimaryContainer">@color/white</color>
+    <color name="md_theme_light_secondary">@color/black</color>
+    <color name="md_theme_light_onSecondary">@color/white</color>
+    <color name="md_theme_light_secondaryContainer">@color/gray_200</color>
+    <color name="md_theme_light_onSecondaryContainer">@color/black</color>
+    <color name="md_theme_light_tertiary">@color/black</color>
+    <color name="md_theme_light_onTertiary">@color/white</color>
+    <color name="md_theme_light_error">@color/black</color>
+    <color name="md_theme_light_errorContainer">@color/gray_200</color>
+    <color name="md_theme_light_onError">@color/white</color>
+    <color name="md_theme_light_onErrorContainer">@color/black</color>
+    <color name="md_theme_light_background">#FFEDEDED</color>
+    <color name="md_theme_light_onBackground">@color/black</color>
+    <color name="md_theme_light_surface">@color/white</color>
+    <color name="md_theme_light_onSurface">@color/black</color>
+    <color name="md_theme_light_surfaceVariant">@color/gray_50</color>
+    <color name="md_theme_light_onSurfaceVariant">@color/gray_600</color>
+    <color name="md_theme_light_outline">@android:color/transparent</color>
+    <color name="md_theme_light_outlineVariant">@android:color/transparent</color>
+    <color name="md_theme_light_shadow">@android:color/transparent</color>
+    <color name="md_theme_light_scrim">@android:color/transparent</color>
+    <color name="md_theme_light_inverseSurface">@color/black</color>
+    <color name="md_theme_light_inverseOnSurface">@color/white</color>
+    <color name="md_theme_light_inversePrimary">@color/white</color>
+    <color name="md_theme_light_surfaceTint">@android:color/transparent</color>
+</resources>

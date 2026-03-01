@@ -1,0 +1,219 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rudisec.echocast"
+4    android:versionCode="6"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+10
+11    <!-- System app permissions -->
+12    <uses-permission android:name="android.permission.CONTROL_INCALL_EXPERIENCE" />
+12-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:6:5-8:47
+12-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:7:9-68
+13    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+13-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:9:5-11:47
+13-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:10:9-61
+14
+15    <!-- Regular permissions -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:14:5-67
+16-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:14:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:15:5-79
+17-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:15:22-76
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:16:5-77
+18-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:16:22-74
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:17:5-77
+19-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:17:22-74
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:18:5-80
+20-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:18:22-77
+21    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+21-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:19:5-75
+21-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:19:22-72
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:20:5-71
+22-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:20:22-68
+23
+24    <permission
+24-->[androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+25        android:name="com.rudisec.echocast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.rudisec.echocast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:22:5-65:19
+31        android:name="com.rudisec.echocast.EchoCastApplication"
+31-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:23:9-44
+32        android:allowBackup="true"
+32-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:24:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:25:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:26:9-41
+37        android:networkSecurityConfig="@xml/network_security_config"
+37-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:31:9-69
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:27:9-54
+39        android:supportsRtl="true"
+39-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:28:9-35
+40        android:theme="@style/Theme.EchoCast"
+40-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:29:9-46
+41        android:usesCleartextTraffic="true" >
+41-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:30:9-44
+42        <service
+42-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:33:9-42:19
+43            android:name="com.rudisec.echocast.EchoCastInCallService"
+43-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:34:13-50
+44            android:enabled="true"
+44-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:35:13-35
+45            android:exported="true"
+45-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:36:13-36
+46            android:foregroundServiceType="phoneCall"
+46-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:38:13-54
+47            android:permission="android.permission.BIND_INCALL_SERVICE" >
+47-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:37:13-72
+48            <intent-filter>
+48-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:39:13-41:29
+49                <action android:name="android.telecom.InCallService" />
+49-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:40:17-72
+49-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:40:25-69
+50            </intent-filter>
+51        </service>
+52        <service
+52-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:44:9-54:19
+53            android:name="com.rudisec.echocast.EchoCastTileService"
+53-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:45:13-48
+54            android:enabled="true"
+54-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:46:13-35
+55            android:exported="true"
+55-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:47:13-36
+56            android:icon="@drawable/ic_launcher_quick_settings"
+56-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:48:13-64
+57            android:label="@string/quick_settings_label"
+57-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:49:13-57
+58            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+58-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:50:13-77
+59            <intent-filter>
+59-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:51:13-53:29
+60                <action android:name="android.service.quicksettings.action.QS_TILE" />
+60-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:52:17-87
+60-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:52:25-84
+61            </intent-filter>
+62        </service>
+63
+64        <activity
+64-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:56:9-64:20
+65            android:name="com.rudisec.echocast.MainActivity"
+65-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:57:13-41
+66            android:exported="true"
+66-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:58:13-36
+67            android:theme="@style/Theme.EchoCast" >
+67-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:59:13-50
+68            <intent-filter>
+68-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:60:13-63:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:61:17-69
+69-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:61:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:62:17-77
+71-->C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:62:27-74
+72            </intent-filter>
+73        </activity>
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+77            android:authorities="com.rudisec.echocast.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+87                android:value="androidx.startup" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+88        </provider>
+89
+90        <uses-library
+90-->[androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+91            android:name="androidx.window.extensions"
+91-->[androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+92            android:required="false" />
+92-->[androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+93        <uses-library
+93-->[androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+94            android:name="androidx.window.sidecar"
+94-->[androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+95            android:required="false" />
+95-->[androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+96
+97        <receiver
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+99            android:directBootAware="false"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+100            android:enabled="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+101            android:exported="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+102            android:permission="android.permission.DUMP" >
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+114            </intent-filter>
+115        </receiver>
+116    </application>
+117
+118</manifest>

@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/layout_dialog_input_modern.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/layout/dialog_input_modern.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/layout_dialog_ai_voice.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/layout/dialog_ai_voice.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/layout_activity_ai_voice.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/layout/activity_ai_voice.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-xxxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/layout_fragment_audio_player.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/layout/fragment_audio_player.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/drawable_indicator_playing.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/drawable/indicator_playing.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/layout_dialog_select_voice.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/layout/dialog_select_voice.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/drawable_bg_button_toggle.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/drawable/bg_button_toggle.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/layout_item_audio.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/layout/item_audio.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/drawable_bg_dialog_rounded.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/drawable/bg_dialog_rounded.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/drawable_ic_expand_less.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/drawable/ic_expand_less.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-hdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-hdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-xxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/layout_fragment_ai.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/layout/fragment_ai.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/drawable_circle_background.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-mdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-mdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/drawable_ic_launcher_quick_settings.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/drawable/ic_launcher_quick_settings.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/menu_main_menu.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-xhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-xhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/layout_activity_main.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/drawable_tab_selector.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/drawable/tab_selector.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/drawable_ic_expand_more.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/drawable/ic_expand_more.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/xml_network_security_config.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-merged_res-44:/drawable_bg_card_minimal.xml.flat",
+        "source": "com.rudisec.echocast.app-main-46:/drawable/bg_card_minimal.xml"
+    }
+]

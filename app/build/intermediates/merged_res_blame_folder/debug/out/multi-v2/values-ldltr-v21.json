@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.rudisec.echocast.app-mergeDebugResources-42:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\b1c9ff0e4ffd6109dcd0b224e4d19be7\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

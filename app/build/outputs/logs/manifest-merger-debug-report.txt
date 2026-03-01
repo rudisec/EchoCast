@@ -1,0 +1,439 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:2:1-66:12
+MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\mario\.gradle\caches\transforms-3\d59e3515f6ad4cd9841ef5b10e3ef585\transformed\viewbinding-7.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference-ktx:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\988f16a40cf88e9f6d84064bc64f1439\transformed\preference-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\mario\.gradle\caches\transforms-3\3efce83cf810af10637916aa9e6a5539\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\mario\.gradle\caches\transforms-3\7a10c229d9730dd59be8205c1aafbe2a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\mario\.gradle\caches\transforms-3\c04a55e262d8b6456df719e96c0d0e71\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\b92216f88b31876b7b0550d81c4031b1\transformed\preference-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\mario\.gradle\caches\transforms-3\b1c9ff0e4ffd6109dcd0b224e4d19be7\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\mario\.gradle\caches\transforms-3\c4b7725f6d6ff7753333592c5e49477c\transformed\recyclerview-1.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\mario\.gradle\caches\transforms-3\07aae52bf10b5a7815b8dd6bafcfb205\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\mario\.gradle\caches\transforms-3\3abb5de6806679f9f27b8b360355a737\transformed\fragment-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\mario\.gradle\caches\transforms-3\ba42772291f14071b267952b27b3ece5\transformed\fragment-ktx-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\mario\.gradle\caches\transforms-3\fa04a8fe6e03dec3820f9e2cedf33314\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\mario\.gradle\caches\transforms-3\da79b5072e2988787427e4475763f85d\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\4ba65ed0a502ab6d6845959cd032e8be\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\afec5c993808012e13a3c9ee936614bf\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\mario\.gradle\caches\transforms-3\fd34b10bc85399c5f3e65816b91231d4\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\mario\.gradle\caches\transforms-3\ebe954c40c83212cd3ea0f47cda0585b\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\8dfca8eda31f8a3061e6d3bbc38da80c\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\mario\.gradle\caches\transforms-3\7bc7ca801a77bfc4609249261f754361\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\2fa81b03ee91cd735b835e4c02978b52\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\079d5c376e5f62d4c22411dd712787b5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\388729ce33d9a46eab99633934249b75\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\57cb57d25b1af0bd5ffd7edbf5341aab\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\88c8e1e24d1825ab41075910c6081974\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\bcc7c7a742be5d1f90ea20be659ee54f\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\f068a3281d671f2fd4c69883db1c34a9\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\d6def130b71e26d0517111a36db582aa\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\e707e8932fc128cc536828dffde343ea\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\ae6c63a8825fdc9d63a0ffdafa10f995\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\34ec9cca686182f7bd646620fcbd479c\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\0619be64396a5d92d79e594444e84a0d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\5859964af2259c39b5fc725ee7dd42f6\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\ad61e8c819e1de7295c113da481682bb\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\9006b1df88dd9979a7ad809d2a305ce5\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\26d543c7941c848c1a2dce9448b299b8\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\15eb961edff0bcc737ad9ec72613a2d6\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\c509999be105cd91b8df53679d1a2dfd\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\6bc24b09798af6e1fac62b90f4b7eca6\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\af87fa202043350cb25a12535b4299f1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\99066a1aa253ba0e49a6ce0f1960771f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\99a3beba6d91a1844fa3cd887f43b6e4\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\6a43efe54d0b255150cba2c0a7b7c544\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\mario\.gradle\caches\transforms-3\0177c0ab8dc14170bc1e5f983e4ea7a2\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\5a8582e6f46e45b1f1c5738069d7f9d9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\233561bece4f7104237b503f49b92e8e\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\fbf989d9003e12ca717193c2c0565a98\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\acdb68413571655ecb8f9b90485cf368\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\3837d3669a3e619023e83fb288b89f47\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\mario\.gradle\caches\transforms-3\4076fb1f1eb65f34dd37dd64737d7b53\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:2:1-66:12
+	package
+		INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:2:1-66:12
+		INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:2:1-66:12
+		INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:2:1-66:12
+		INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CONTROL_INCALL_EXPERIENCE
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:6:5-8:47
+	tools:ignore
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:7:9-68
+uses-permission#android.permission.MODIFY_PHONE_STATE
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:9:5-11:47
+	tools:ignore
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:11:9-44
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:10:9-61
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:16:5-77
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:16:22-74
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:17:5-77
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:17:22-74
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:18:22-77
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:20:5-71
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:20:22-68
+application
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:22:5-65:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\mario\.gradle\caches\transforms-3\3efce83cf810af10637916aa9e6a5539\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\mario\.gradle\caches\transforms-3\3efce83cf810af10637916aa9e6a5539\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\mario\.gradle\caches\transforms-3\7a10c229d9730dd59be8205c1aafbe2a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\mario\.gradle\caches\transforms-3\7a10c229d9730dd59be8205c1aafbe2a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\6a43efe54d0b255150cba2c0a7b7c544\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\6a43efe54d0b255150cba2c0a7b7c544\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\5a8582e6f46e45b1f1c5738069d7f9d9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\5a8582e6f46e45b1f1c5738069d7f9d9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:26:9-41
+	android:roundIcon
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:27:9-54
+	android:icon
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:25:9-43
+	android:allowBackup
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:24:9-35
+	android:theme
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:29:9-46
+	android:networkSecurityConfig
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:31:9-69
+	android:usesCleartextTraffic
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:23:9-44
+service#com.rudisec.echocast.EchoCastInCallService
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:33:9-42:19
+	android:enabled
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:37:13-72
+	android:foregroundServiceType
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:38:13-54
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:34:13-50
+intent-filter#action:name:android.telecom.InCallService
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:39:13-41:29
+action#android.telecom.InCallService
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:40:17-72
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:40:25-69
+service#com.rudisec.echocast.EchoCastTileService
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:44:9-54:19
+	android:enabled
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:46:13-35
+	android:label
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:49:13-57
+	android:exported
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:47:13-36
+	android:permission
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:50:13-77
+	android:icon
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:48:13-64
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:45:13-48
+intent-filter#action:name:android.service.quicksettings.action.QS_TILE
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:51:13-53:29
+action#android.service.quicksettings.action.QS_TILE
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:52:17-87
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:52:25-84
+activity#com.rudisec.echocast.MainActivity
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:56:9-64:20
+	android:exported
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:58:13-36
+	android:theme
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:59:13-50
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:57:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:60:13-63:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:61:17-69
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:61:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml:62:27-74
+uses-sdk
+INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\mario\.gradle\caches\transforms-3\d59e3515f6ad4cd9841ef5b10e3ef585\transformed\viewbinding-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\mario\.gradle\caches\transforms-3\d59e3515f6ad4cd9841ef5b10e3ef585\transformed\viewbinding-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\988f16a40cf88e9f6d84064bc64f1439\transformed\preference-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\988f16a40cf88e9f6d84064bc64f1439\transformed\preference-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\mario\.gradle\caches\transforms-3\3efce83cf810af10637916aa9e6a5539\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\mario\.gradle\caches\transforms-3\3efce83cf810af10637916aa9e6a5539\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\mario\.gradle\caches\transforms-3\7a10c229d9730dd59be8205c1aafbe2a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\mario\.gradle\caches\transforms-3\7a10c229d9730dd59be8205c1aafbe2a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\mario\.gradle\caches\transforms-3\c04a55e262d8b6456df719e96c0d0e71\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\mario\.gradle\caches\transforms-3\c04a55e262d8b6456df719e96c0d0e71\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\b92216f88b31876b7b0550d81c4031b1\transformed\preference-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\b92216f88b31876b7b0550d81c4031b1\transformed\preference-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\mario\.gradle\caches\transforms-3\b1c9ff0e4ffd6109dcd0b224e4d19be7\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\mario\.gradle\caches\transforms-3\b1c9ff0e4ffd6109dcd0b224e4d19be7\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\mario\.gradle\caches\transforms-3\c4b7725f6d6ff7753333592c5e49477c\transformed\recyclerview-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\mario\.gradle\caches\transforms-3\c4b7725f6d6ff7753333592c5e49477c\transformed\recyclerview-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\mario\.gradle\caches\transforms-3\07aae52bf10b5a7815b8dd6bafcfb205\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\mario\.gradle\caches\transforms-3\07aae52bf10b5a7815b8dd6bafcfb205\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\mario\.gradle\caches\transforms-3\3abb5de6806679f9f27b8b360355a737\transformed\fragment-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\mario\.gradle\caches\transforms-3\3abb5de6806679f9f27b8b360355a737\transformed\fragment-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\mario\.gradle\caches\transforms-3\ba42772291f14071b267952b27b3ece5\transformed\fragment-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\mario\.gradle\caches\transforms-3\ba42772291f14071b267952b27b3ece5\transformed\fragment-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\mario\.gradle\caches\transforms-3\fa04a8fe6e03dec3820f9e2cedf33314\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\mario\.gradle\caches\transforms-3\fa04a8fe6e03dec3820f9e2cedf33314\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\mario\.gradle\caches\transforms-3\da79b5072e2988787427e4475763f85d\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\mario\.gradle\caches\transforms-3\da79b5072e2988787427e4475763f85d\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\4ba65ed0a502ab6d6845959cd032e8be\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\4ba65ed0a502ab6d6845959cd032e8be\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\afec5c993808012e13a3c9ee936614bf\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\afec5c993808012e13a3c9ee936614bf\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\mario\.gradle\caches\transforms-3\fd34b10bc85399c5f3e65816b91231d4\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\mario\.gradle\caches\transforms-3\fd34b10bc85399c5f3e65816b91231d4\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\mario\.gradle\caches\transforms-3\ebe954c40c83212cd3ea0f47cda0585b\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\mario\.gradle\caches\transforms-3\ebe954c40c83212cd3ea0f47cda0585b\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\8dfca8eda31f8a3061e6d3bbc38da80c\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\8dfca8eda31f8a3061e6d3bbc38da80c\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\mario\.gradle\caches\transforms-3\7bc7ca801a77bfc4609249261f754361\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\mario\.gradle\caches\transforms-3\7bc7ca801a77bfc4609249261f754361\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\2fa81b03ee91cd735b835e4c02978b52\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\2fa81b03ee91cd735b835e4c02978b52\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\079d5c376e5f62d4c22411dd712787b5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\079d5c376e5f62d4c22411dd712787b5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\388729ce33d9a46eab99633934249b75\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\388729ce33d9a46eab99633934249b75\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\57cb57d25b1af0bd5ffd7edbf5341aab\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\57cb57d25b1af0bd5ffd7edbf5341aab\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\88c8e1e24d1825ab41075910c6081974\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\88c8e1e24d1825ab41075910c6081974\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\bcc7c7a742be5d1f90ea20be659ee54f\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\bcc7c7a742be5d1f90ea20be659ee54f\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\f068a3281d671f2fd4c69883db1c34a9\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\f068a3281d671f2fd4c69883db1c34a9\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\d6def130b71e26d0517111a36db582aa\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\d6def130b71e26d0517111a36db582aa\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\e707e8932fc128cc536828dffde343ea\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\e707e8932fc128cc536828dffde343ea\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\ae6c63a8825fdc9d63a0ffdafa10f995\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\ae6c63a8825fdc9d63a0ffdafa10f995\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\34ec9cca686182f7bd646620fcbd479c\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\34ec9cca686182f7bd646620fcbd479c\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\0619be64396a5d92d79e594444e84a0d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\0619be64396a5d92d79e594444e84a0d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\5859964af2259c39b5fc725ee7dd42f6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\5859964af2259c39b5fc725ee7dd42f6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\ad61e8c819e1de7295c113da481682bb\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\ad61e8c819e1de7295c113da481682bb\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\9006b1df88dd9979a7ad809d2a305ce5\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\9006b1df88dd9979a7ad809d2a305ce5\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\26d543c7941c848c1a2dce9448b299b8\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\26d543c7941c848c1a2dce9448b299b8\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\15eb961edff0bcc737ad9ec72613a2d6\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\15eb961edff0bcc737ad9ec72613a2d6\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\c509999be105cd91b8df53679d1a2dfd\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\c509999be105cd91b8df53679d1a2dfd\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\6bc24b09798af6e1fac62b90f4b7eca6\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\6bc24b09798af6e1fac62b90f4b7eca6\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\af87fa202043350cb25a12535b4299f1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\af87fa202043350cb25a12535b4299f1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\99066a1aa253ba0e49a6ce0f1960771f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\99066a1aa253ba0e49a6ce0f1960771f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\99a3beba6d91a1844fa3cd887f43b6e4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\99a3beba6d91a1844fa3cd887f43b6e4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\6a43efe54d0b255150cba2c0a7b7c544\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\6a43efe54d0b255150cba2c0a7b7c544\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\mario\.gradle\caches\transforms-3\0177c0ab8dc14170bc1e5f983e4ea7a2\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\mario\.gradle\caches\transforms-3\0177c0ab8dc14170bc1e5f983e4ea7a2\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\5a8582e6f46e45b1f1c5738069d7f9d9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\5a8582e6f46e45b1f1c5738069d7f9d9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\233561bece4f7104237b503f49b92e8e\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\233561bece4f7104237b503f49b92e8e\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\fbf989d9003e12ca717193c2c0565a98\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\fbf989d9003e12ca717193c2c0565a98\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\acdb68413571655ecb8f9b90485cf368\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\acdb68413571655ecb8f9b90485cf368\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\3837d3669a3e619023e83fb288b89f47\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\3837d3669a3e619023e83fb288b89f47\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\mario\.gradle\caches\transforms-3\4076fb1f1eb65f34dd37dd64737d7b53\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\mario\.gradle\caches\transforms-3\4076fb1f1eb65f34dd37dd64737d7b53\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mario\Desktop\EchoCast\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\5a8582e6f46e45b1f1c5738069d7f9d9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mario\.gradle\caches\transforms-3\5a8582e6f46e45b1f1c5738069d7f9d9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\mario\.gradle\caches\transforms-3\6bb398ca48421f91da5c590aeea90f42\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.rudisec.echocast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.rudisec.echocast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mario\.gradle\caches\transforms-3\579b14792c1cafd6cae3f7f59b001273\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

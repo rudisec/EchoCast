@@ -1,0 +1,46 @@
+# SELinux rules to allow internet access for priv_app (EchoCast)
+# These rules are applied by Magisk at boot time
+# Format: allow <source> <target>:<class> <permissions>
+
+# DNS resolution - CRITICAL for getaddrinfo and hostname resolution
+allow priv_app dnsproxyd_socket sock_file { create write getattr }
+allow priv_app dnsproxyd_socket unix_dgram_socket { create connect sendto recvfrom }
+allow priv_app dnsproxyd unix_dgram_socket sendto
+allow priv_app dnsproxyd unix_stream_socket connectto
+
+# Network capabilities
+allow priv_app priv_app capability { net_raw net_admin }
+
+# Netlink sockets for network configuration and routing
+allow priv_app self netlink_route_socket { create read write getattr nlmsg_read }
+allow priv_app self netlink_socket { create read write getattr }
+
+# Network socket creation and connection
+allow priv_app self tcp_socket { create connect read write getattr setopt getopt bind }
+allow priv_app self udp_socket { create connect read write getattr setopt bind }
+
+# Hostname resolution - CRITICAL for DNS lookups
+allow priv_app node tcp_socket { node_bind name_connect }
+allow priv_app node udp_socket { node_bind name_connect }
+allow priv_app port tcp_socket name_connect
+allow priv_app port udp_socket name_bind
+
+# Netd communication (required for network operations on Android)
+allow priv_app netd fd use
+allow priv_app netd unix_stream_socket { create read write getattr connect }
+allow priv_app netd unix_dgram_socket { create read write getattr connect sendto }
+allow priv_app netd binder { call transfer }
+allow priv_app netd dir { search }
+allow priv_app netd file { read open }
+
+# Fwmarkd socket (required for network routing and marking)
+allow priv_app fwmarkd_socket sock_file { create write getattr }
+allow priv_app fwmarkd unix_stream_socket connectto
+
+# System properties access for network configuration
+allow priv_app system_prop file read
+allow priv_app net_prop property_service set
+
+# Access to network configuration files
+allow priv_app system_file file { read open getattr }
+allow priv_app system_file dir { search read }

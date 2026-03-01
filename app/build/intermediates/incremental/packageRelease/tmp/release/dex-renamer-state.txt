@@ -1,0 +1,4 @@
+#Sun Mar 01 18:44:31 CET 2026
+base.0=C\:\\Users\\mario\\Desktop\\EchoCast\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

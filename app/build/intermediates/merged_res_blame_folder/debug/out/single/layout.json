@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.rudisec.echocast.app-mergeDebugResources-43:/layout/activity_ai_voice.xml",
+        "source": "com.rudisec.echocast.app-main-46:/layout/activity_ai_voice.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-mergeDebugResources-43:/layout/fragment_ai.xml",
+        "source": "com.rudisec.echocast.app-main-46:/layout/fragment_ai.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-mergeDebugResources-43:/layout/fragment_audio_player.xml",
+        "source": "com.rudisec.echocast.app-main-46:/layout/fragment_audio_player.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-mergeDebugResources-43:/layout/item_audio.xml",
+        "source": "com.rudisec.echocast.app-main-46:/layout/item_audio.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-mergeDebugResources-43:/layout/dialog_input_modern.xml",
+        "source": "com.rudisec.echocast.app-main-46:/layout/dialog_input_modern.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "com.rudisec.echocast.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-mergeDebugResources-43:/layout/dialog_select_voice.xml",
+        "source": "com.rudisec.echocast.app-main-46:/layout/dialog_select_voice.xml"
+    },
+    {
+        "merged": "com.rudisec.echocast.app-mergeDebugResources-43:/layout/dialog_ai_voice.xml",
+        "source": "com.rudisec.echocast.app-main-46:/layout/dialog_ai_voice.xml"
+    }
+]

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Material 3 Theme - Minimalist Design -->
+    <style name="Theme.EchoCast" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Material 3 Color Scheme -->
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+        
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+        
+        <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+        
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+        
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="colorOutlineVariant">@color/md_theme_light_outlineVariant</item>
+        
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        
+        <!-- Window Background -->
+        <item name="android:windowBackground">@color/background</item>
+        
+        <!-- Status Bar & Navigation -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        
+        <!-- No Shadows/Elevation - Minimalist -->
+        <item name="android:elevation">0dp</item>
+        <item name="elevationOverlayEnabled">false</item>
+        <item name="elevationOverlayColor">@android:color/transparent</item>
+        
+        <!-- Window Settings -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+        
+        <!-- Shape Appearances - Rounded Corners, No Borders -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.EchoCast.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.EchoCast.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.EchoCast.LargeComponent</item>
+    </style>
+
+    <!-- Rounded Corners - No Borders -->
+    <style name="ShapeAppearance.EchoCast.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.EchoCast.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.EchoCast.LargeComponent" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <!-- Overlay Themes -->
+    <style name="Theme.EchoCast.AppBarOverlay" parent="ThemeOverlay.Material3.ActionBar">
+        <item name="android:elevation">0dp</item>
+    </style>
+    
+    <style name="Theme.EchoCast.PopupOverlay" parent="ThemeOverlay.Material3.Light">
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <!-- Dialog theme - white background, rounded corners -->
+    <style name="Theme.EchoCast.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorSurface">@color/white</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.EchoCast.Dialog</item>
+        <item name="android:windowBackground">@drawable/bg_dialog_rounded</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="TextAppearance.EchoCast.Dialog" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/on_surface</item>
+    </style>
+
+    <!-- Tab Text Style -->
+    <style name="TabTextStyle" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="textAllCaps">false</item>
+    </style>
+</resources>
