@@ -1,5 +1,11 @@
 # 🎧 EchoCast - Multi-Audio Call Player
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rudisec/EchoCast/main/docs/Logo-light.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rudisec/EchoCast/main/docs/Logo.png">
+  <img src="https://raw.githubusercontent.com/rudisec/EchoCast/main/docs/Logo.png" alt="EchoCast" width="200">
+</picture>
+
 EchoCast is an Android application that plays multiple audio files to the other party during phone calls. It allows you to create a playlist/soundboard and play sounds, music, or voice recordings to the person you're talking to.
 
 ## ⚠️ Disclaimer
@@ -85,20 +91,6 @@ EchoCast requires system-level permissions to function properly, so it must be i
 EchoCast uses Android's InCallService API to detect active phone calls. When a call is detected, it uses the `MODIFY_PHONE_STATE` privileged system permission to create an `AudioTrack` instance for the telephony output device, allowing it to play audio directly to the call.
 
 The application supports playing multiple audio files sequentially, with support for different play modes to suit your needs.
-
-## 🛠️ Building from Source
-
-EchoCast can be built using Android Studio or the Gradle command line:
-
-```bash
-# To build the APK
-./gradlew assembleDebug
-
-# To build the Magisk module zip
-./gradlew zipDebug
-```
-
-The output files will be in `app/build/distributions/debug/`.
 
 ## 📜 License
 
