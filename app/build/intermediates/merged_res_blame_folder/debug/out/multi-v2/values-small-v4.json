@@ -4,7 +4,7 @@
             "outputFile": "com.rudisec.echocast.app-mergeDebugResources-42:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\3efce83cf810af10637916aa9e6a5539\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Charming\\.gradle\\caches\\transforms-3\\3efce83cf810af10637916aa9e6a5539\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

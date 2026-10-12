@@ -2142,6 +2142,8 @@
     <string description="Suffix for time in 12-hour standard, after noon. [CHAR_LIMIT=2]" name="material_timepicker_pm">PM</string>
     <string description="Title for the dialog with a time picker. [CHAR_LIMIT=32]" name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="monitor_playback">Hear Yourself</string>
+    <string name="monitor_playback_description">Also play the audio on your phone so you can hear what the other party hears</string>
     <string description="Content description for new notification (no number count) [CHAR_LIMIT=NONE]" name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_checkbox_button_icon_path_checked" translatable="false">M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z</string>
     <string name="mtrl_checkbox_button_icon_path_group_name" translatable="false">icon</string>

@@ -196,6 +196,10 @@ class AudioPlayerFragment : Fragment() {
             prefs.isEnabled = isChecked
         }
 
+        binding.switchMonitor.setOnCheckedChangeListener { _, isChecked ->
+            prefs.monitorPlayback = isChecked
+        }
+
         binding.btnModeSingle.setOnClickListener {
             prefs.playMode = "single"
             updatePlayModeButtons()
@@ -274,6 +278,7 @@ class AudioPlayerFragment : Fragment() {
 
     private fun loadState() {
         binding.switchEnable.isChecked = prefs.isEnabled
+        binding.switchMonitor.isChecked = prefs.monitorPlayback
         updatePlayModeButtons()
         updateShuffleControls()
     }

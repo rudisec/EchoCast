@@ -140,7 +140,7 @@ class SingleAudioPlayer(
                     throw Exception("Failure when querying minimum buffer size: $minBufSize")
                 }
 
-                // Create audio output track
+                // Create audio output track for telephony
                 val attributes = AudioAttributes.Builder()
                     .setUsage(AudioAttributes.USAGE_VOICE_COMMUNICATION)
                     .build()
@@ -152,6 +152,21 @@ class SingleAudioPlayer(
                     .build()
 
                 currentAudioTrack = audioTrack
+
+                // Optionally create a local playback track so the user can hear it too
+                val localAudioTrack: AudioTrack? = if (Preferences(context).monitorPlayback) {
+                    val localAttributes = AudioAttributes.Builder()
+                        .setUsage(AudioAttributes.USAGE_MEDIA)
+                        .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
+                        .build()
+                    AudioTrack.Builder()
+                        .setBufferSizeInBytes(minBufSize)
+                        .setAudioAttributes(localAttributes)
+                        .setAudioFormat(audioFormat)
+                        .build()
+                } else {
+                    null
+                }
 
                 try {
                     if (!audioTrack.setPreferredDevice(telephonyOutput)) {
@@ -166,16 +181,19 @@ class SingleAudioPlayer(
                         if (audioTrack.playState != AudioTrack.PLAYSTATE_PLAYING) {
                             throw Exception("AudioTrack is in a bad state: ${audioTrack.playState}")
                         }
+                        localAudioTrack?.play()
                     }
 
                     try {
-                        playbackLoop(audioTrack, codec, extractor)
+                        playbackLoop(audioTrack, localAudioTrack, codec, extractor)
                     } finally {
                         audioTrack.stop()
+                        localAudioTrack?.stop()
                     }
                 } finally {
                     audioTrack.release()
                     currentAudioTrack = null
+                    localAudioTrack?.release()
                 }
             } finally {
                 codec.release()
@@ -188,7 +206,7 @@ class SingleAudioPlayer(
     /**
      * Main loop for playing the audio file
      */
-    private fun playbackLoop(track: AudioTrack, codec: MediaCodec, extractor: MediaExtractor) {
+    private fun playbackLoop(track: AudioTrack, localTrack: AudioTrack?, codec: MediaCodec, extractor: MediaExtractor) {
         var lastPrefsCheck = System.currentTimeMillis()
         val prefsCheckInterval = 200L // Check preferences every 200ms
 
@@ -211,12 +229,18 @@ class SingleAudioPlayer(
                 if (track.playState == AudioTrack.PLAYSTATE_PLAYING) {
                     track.pause()
                 }
+                if (localTrack?.playState == AudioTrack.PLAYSTATE_PLAYING) {
+                    localTrack.pause()
+                }
                 Thread.sleep(100) // Sleep while paused
                 continue
             } else {
                 // Resume if paused
                 if (track.playState == AudioTrack.PLAYSTATE_PAUSED) {
                     track.play()
+                }
+                if (localTrack?.playState == AudioTrack.PLAYSTATE_PAUSED) {
+                    localTrack.play()
                 }
             }
 
@@ -247,8 +271,8 @@ class SingleAudioPlayer(
                 extractor.advance()
             }
 
-            flushOutput(track, codec, waitForever)
-            
+            flushOutput(track, localTrack, codec, waitForever)
+
             if (waitForever) {
                 // End of file
                 break
@@ -259,7 +283,7 @@ class SingleAudioPlayer(
     /**
      * Flush queued PCM output from the codec to the audio track
      */
-    private fun flushOutput(track: AudioTrack, codec: MediaCodec, waitForever: Boolean) {
+    private fun flushOutput(track: AudioTrack, localTrack: AudioTrack?, codec: MediaCodec, waitForever: Boolean) {
         val bufferInfo = MediaCodec.BufferInfo()
 
         while (true) {
@@ -267,25 +291,35 @@ class SingleAudioPlayer(
             val outputBufferId = codec.dequeueOutputBuffer(bufferInfo, timeout)
             if (outputBufferId >= 0) {
                 val buffer = codec.getOutputBuffer(outputBufferId)!!
-                
+
                 // Write PCM data directly to audio track
                 if (bufferInfo.size > 0) {
                     val originalPosition = buffer.position()
                     val originalLimit = buffer.limit()
-                    
+
                     // Set buffer to the data range
                     buffer.position(0)
                     buffer.limit(bufferInfo.size)
-                    
+
                     val n = track.write(buffer, bufferInfo.size, AudioTrack.WRITE_BLOCKING)
-                    
+
+                    if (n < 0) {
+                        // Restore original buffer position/limit
+                        buffer.position(originalPosition)
+                        buffer.limit(originalLimit)
+                        throw Exception("Failed to write to audio track: $n")
+                    }
+
+                    // Also write to local track so the user can hear the playback
+                    if (localTrack != null) {
+                        buffer.position(0)
+                        buffer.limit(bufferInfo.size)
+                        localTrack.write(buffer, bufferInfo.size, AudioTrack.WRITE_BLOCKING)
+                    }
+
                     // Restore original buffer position/limit
                     buffer.position(originalPosition)
                     buffer.limit(originalLimit)
-                    
-                    if (n < 0) {
-                        throw Exception("Failed to write to audio track: $n")
-                    }
                 }
 
                 codec.releaseOutputBuffer(outputBufferId, false)

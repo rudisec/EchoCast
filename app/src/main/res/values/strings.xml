@@ -17,6 +17,8 @@
     <string name="playback_enabled">Playback Enabled</string>
     <string name="playback_disabled">Playback Disabled</string>
     <string name="play_mode">Play Mode</string>
+    <string name="monitor_playback">Hear Yourself</string>
+    <string name="monitor_playback_description">Also play the audio on your phone so you can hear what the other party hears</string>
     <string name="play_mode_single">Manual</string>
     <string name="shuffle_control">Shuffle Control</string>
     <string name="play_shuffle">Play</string>

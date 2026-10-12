@@ -74,6 +74,8 @@
     <string name="enter_text_to_generate">Enter text to generate...</string>
     <string name="generate_and_add_to_playlist">Generate and Add to Soundboard</string>
     <string name="grant_permission">Grant Permission</string>
+    <string name="monitor_playback">Hear Yourself</string>
+    <string name="monitor_playback_description">Also play the audio on your phone so you can hear what the other party hears</string>
     <string name="name_updated">Name updated</string>
     <string name="no_audio_files">No audio files added yet</string>
     <string name="no_file_selected">No file selected</string>

@@ -64,6 +64,9 @@ public final class FragmentAudioPlayerBinding implements ViewBinding {
   public final SwitchMaterial switchEnable;
 
   @NonNull
+  public final SwitchMaterial switchMonitor;
+
+  @NonNull
   public final TextView tvEmptyState;
 
   private FragmentAudioPlayerBinding(@NonNull NestedScrollView rootView,
@@ -73,7 +76,8 @@ public final class FragmentAudioPlayerBinding implements ViewBinding {
       @NonNull MaterialCheckBox checkboxShuffleLoop, @NonNull MaterialButton fabAddAudio,
       @NonNull LinearLayout layoutSelectionActions, @NonNull LinearLayout layoutShuffleControls,
       @NonNull LinearLayout playModeGroupContainer, @NonNull RecyclerView recyclerViewPlaylist,
-      @NonNull SwitchMaterial switchEnable, @NonNull TextView tvEmptyState) {
+      @NonNull SwitchMaterial switchEnable, @NonNull SwitchMaterial switchMonitor,
+      @NonNull TextView tvEmptyState) {
     this.rootView = rootView;
     this.btnDelete = btnDelete;
     this.btnEditName = btnEditName;
@@ -88,6 +92,7 @@ public final class FragmentAudioPlayerBinding implements ViewBinding {
     this.playModeGroupContainer = playModeGroupContainer;
     this.recyclerViewPlaylist = recyclerViewPlaylist;
     this.switchEnable = switchEnable;
+    this.switchMonitor = switchMonitor;
     this.tvEmptyState = tvEmptyState;
   }
 
@@ -196,6 +201,12 @@ public final class FragmentAudioPlayerBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.switchMonitor;
+      SwitchMaterial switchMonitor = ViewBindings.findChildViewById(rootView, id);
+      if (switchMonitor == null) {
+        break missingId;
+      }
+
       id = R.id.tvEmptyState;
       TextView tvEmptyState = ViewBindings.findChildViewById(rootView, id);
       if (tvEmptyState == null) {
@@ -205,7 +216,7 @@ public final class FragmentAudioPlayerBinding implements ViewBinding {
       return new FragmentAudioPlayerBinding((NestedScrollView) rootView, btnDelete, btnEditName,
           btnModeLoop, btnModeShuffle, btnModeSingle, btnShufflePlayPause, checkboxShuffleLoop,
           fabAddAudio, layoutSelectionActions, layoutShuffleControls, playModeGroupContainer,
-          recyclerViewPlaylist, switchEnable, tvEmptyState);
+          recyclerViewPlaylist, switchEnable, switchMonitor, tvEmptyState);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,18 +4,7 @@
             "outputFile": "com.rudisec.echocast.app-mergeReleaseResources-42:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\b1c9ff0e4ffd6109dcd0b224e4d19be7\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
-                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
-                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\99a3beba6d91a1844fa3cd887f43b6e4\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Charming\\.gradle\\caches\\transforms-3\\99a3beba6d91a1844fa3cd887f43b6e4\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -34,7 +23,18 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\3efce83cf810af10637916aa9e6a5539\\transformed\\material-1.12.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Charming\\.gradle\\caches\\transforms-3\\b1c9ff0e4ffd6109dcd0b224e4d19be7\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Charming\\.gradle\\caches\\transforms-3\\3efce83cf810af10637916aa9e6a5539\\transformed\\material-1.12.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

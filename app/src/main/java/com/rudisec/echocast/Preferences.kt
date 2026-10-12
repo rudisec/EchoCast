@@ -13,6 +13,7 @@ class Preferences(private val context: Context) {
         const val PREF_SELECTED_VOICE_ID = "selected_voice_id"
         const val PREF_IS_PAUSED = "is_paused"
         const val PREF_VOLUME = "volume" // 0.0 to 1.0
+        const val PREF_MONITOR_PLAYBACK = "monitor_playback"
     }
 
     private val prefs = PreferenceManager.getDefaultSharedPreferences(context)
@@ -55,6 +56,13 @@ class Preferences(private val context: Context) {
     var isPaused: Boolean
         get() = prefs.getBoolean(PREF_IS_PAUSED, false)
         set(paused) = prefs.edit { putBoolean(PREF_IS_PAUSED, paused) }
+
+    /**
+     * Whether to also play audio locally so the user can hear it during calls
+     */
+    var monitorPlayback: Boolean
+        get() = prefs.getBoolean(PREF_MONITOR_PLAYBACK, false)
+        set(monitor) = prefs.edit { putBoolean(PREF_MONITOR_PLAYBACK, monitor) }
 
     /**
      * Playback volume (0.0 to 1.0, where 1.0 = 100%)

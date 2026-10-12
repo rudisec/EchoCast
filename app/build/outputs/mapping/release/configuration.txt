@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is C:\Users\mario\Desktop\EchoCast\app\build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-7.2.1
+# The proguard configuration file for the following section is D:\DevWorkSpace\EchoCast\app\build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-7.2.1
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -117,8 +117,8 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from C:\Users\mario\Desktop\EchoCast\app\build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-7.2.1
-# The proguard configuration file for the following section is C:\Users\mario\Desktop\EchoCast\app\proguard-rules.pro
+# End of content from D:\DevWorkSpace\EchoCast\app\build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-7.2.1
+# The proguard configuration file for the following section is D:\DevWorkSpace\EchoCast\app\proguard-rules.pro
 # Add project specific ProGuard rules here.
 # You can control the set of applied configuration files using the
 # proguardFiles setting in build.gradle.
@@ -136,8 +136,8 @@
 # Keep interfaces
 -keep interface com.rudisec.echocast.MultiAudioPlayer$OnPlaybackCompletedListener { *; }
 
-# End of content from C:\Users\mario\Desktop\EchoCast\app\proguard-rules.pro
-# The proguard configuration file for the following section is C:\Users\mario\Desktop\EchoCast\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# End of content from D:\DevWorkSpace\EchoCast\app\proguard-rules.pro
+# The proguard configuration file for the following section is D:\DevWorkSpace\EchoCast\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
@@ -252,8 +252,8 @@
 -keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
 
 
-# End of content from C:\Users\mario\Desktop\EchoCast\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\3efce83cf810af10637916aa9e6a5539\transformed\material-1.12.0\proguard.txt
+# End of content from D:\DevWorkSpace\EchoCast\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\3efce83cf810af10637916aa9e6a5539\transformed\material-1.12.0\proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -301,8 +301,8 @@
 }
 
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\3efce83cf810af10637916aa9e6a5539\transformed\material-1.12.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\b92216f88b31876b7b0550d81c4031b1\transformed\preference-1.2.0\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\3efce83cf810af10637916aa9e6a5539\transformed\material-1.12.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\b92216f88b31876b7b0550d81c4031b1\transformed\preference-1.2.0\proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -325,8 +325,8 @@
     public <init>(android.content.Context, android.util.AttributeSet);
 }
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\b92216f88b31876b7b0550d81c4031b1\transformed\preference-1.2.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\b1c9ff0e4ffd6109dcd0b224e4d19be7\transformed\appcompat-1.6.1\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\b92216f88b31876b7b0550d81c4031b1\transformed\preference-1.2.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\b1c9ff0e4ffd6109dcd0b224e4d19be7\transformed\appcompat-1.6.1\proguard.txt
 # Copyright (C) 2018 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -350,8 +350,8 @@
   <methods>;
 }
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\b1c9ff0e4ffd6109dcd0b224e4d19be7\transformed\appcompat-1.6.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\c4b7725f6d6ff7753333592c5e49477c\transformed\recyclerview-1.3.1\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\b1c9ff0e4ffd6109dcd0b224e4d19be7\transformed\appcompat-1.6.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\c4b7725f6d6ff7753333592c5e49477c\transformed\recyclerview-1.3.1\proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -377,8 +377,8 @@
     public void suppressLayout(boolean);
     public boolean isLayoutSuppressed();
 }
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\c4b7725f6d6ff7753333592c5e49477c\transformed\recyclerview-1.3.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\3abb5de6806679f9f27b8b360355a737\transformed\fragment-1.6.1\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\c4b7725f6d6ff7753333592c5e49477c\transformed\recyclerview-1.3.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\3abb5de6806679f9f27b8b360355a737\transformed\fragment-1.6.1\proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -409,8 +409,8 @@
     public <init>();
 }
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\3abb5de6806679f9f27b8b360355a737\transformed\fragment-1.6.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\ebe954c40c83212cd3ea0f47cda0585b\transformed\savedstate-1.2.1\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\3abb5de6806679f9f27b8b360355a737\transformed\fragment-1.6.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\ebe954c40c83212cd3ea0f47cda0585b\transformed\savedstate-1.2.1\proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -429,8 +429,8 @@
     <init>();
 }
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\ebe954c40c83212cd3ea0f47cda0585b\transformed\savedstate-1.2.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\7bc7ca801a77bfc4609249261f754361\transformed\transition-1.5.0\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\ebe954c40c83212cd3ea0f47cda0585b\transformed\savedstate-1.2.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\7bc7ca801a77bfc4609249261f754361\transformed\transition-1.5.0\proguard.txt
 # Copyright (C) 2017 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -450,12 +450,12 @@
   androidx.transition.ChangeBounds$ViewBounds mViewBounds;
 }
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\7bc7ca801a77bfc4609249261f754361\transformed\transition-1.5.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\7bc7ca801a77bfc4609249261f754361\transformed\transition-1.5.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\proguard.txt
 # this rule is need to work properly when app is compiled with api 28, see b/142778206
 -keepclassmembers class * extends androidx.lifecycle.EmptyActivityLifecycleCallbacks { *; }
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\bcc7c7a742be5d1f90ea20be659ee54f\transformed\lifecycle-viewmodel-2.6.2\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\e8c5d5ba835cd09c577b67d08cad17b9\transformed\lifecycle-process-2.6.2\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\bcc7c7a742be5d1f90ea20be659ee54f\transformed\lifecycle-viewmodel-2.6.2\proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>();
 }
@@ -464,8 +464,8 @@
     <init>(android.app.Application);
 }
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\bcc7c7a742be5d1f90ea20be659ee54f\transformed\lifecycle-viewmodel-2.6.2\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\ae6c63a8825fdc9d63a0ffdafa10f995\transformed\coordinatorlayout-1.1.0\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\bcc7c7a742be5d1f90ea20be659ee54f\transformed\lifecycle-viewmodel-2.6.2\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\ae6c63a8825fdc9d63a0ffdafa10f995\transformed\coordinatorlayout-1.1.0\proguard.txt
 # Copyright (C) 2016 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -489,8 +489,8 @@
 # Make sure we keep annotations for CoordinatorLayout's DefaultBehavior and ViewPager's DecorView
 -keepattributes *Annotation*
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\ae6c63a8825fdc9d63a0ffdafa10f995\transformed\coordinatorlayout-1.1.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\34ec9cca686182f7bd646620fcbd479c\transformed\vectordrawable-animated-1.1.0\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\ae6c63a8825fdc9d63a0ffdafa10f995\transformed\coordinatorlayout-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\34ec9cca686182f7bd646620fcbd479c\transformed\vectordrawable-animated-1.1.0\proguard.txt
 # Copyright (C) 2016 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -511,8 +511,8 @@
    *** get*();
 }
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\34ec9cca686182f7bd646620fcbd479c\transformed\vectordrawable-animated-1.1.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\34ec9cca686182f7bd646620fcbd479c\transformed\vectordrawable-animated-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -538,8 +538,8 @@
   public onDeviceStateChanged(androidx.window.sidecar.SidecarDeviceState);
   public onWindowLayoutChanged(android.os.IBinder, androidx.window.sidecar.SidecarWindowLayoutInfo);
 }
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\a32d425a994b7b7d134c574e18dc042d\transformed\window-1.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\proguard.txt
 # Never inline methods, but allow shrinking and obfuscation.
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
   <methods>;
@@ -557,8 +557,8 @@
   <methods>;
 }
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\9006b1df88dd9979a7ad809d2a305ce5\transformed\lifecycle-runtime-2.6.2\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\52822f0ffd8f2182ff153cb6356ccd06\transformed\core-1.13.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\9006b1df88dd9979a7ad809d2a305ce5\transformed\lifecycle-runtime-2.6.2\proguard.txt
 -keepattributes AnnotationDefault,
                 RuntimeVisibleAnnotations,
                 RuntimeVisibleParameterAnnotations,
@@ -582,8 +582,8 @@
 # this rule is need to work properly when app is compiled with api 28, see b/142778206
 # Also this rule prevents registerIn from being inlined.
 -keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\9006b1df88dd9979a7ad809d2a305ce5\transformed\lifecycle-runtime-2.6.2\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\c509999be105cd91b8df53679d1a2dfd\transformed\lifecycle-viewmodel-savedstate-2.6.2\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\9006b1df88dd9979a7ad809d2a305ce5\transformed\lifecycle-runtime-2.6.2\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\c509999be105cd91b8df53679d1a2dfd\transformed\lifecycle-viewmodel-savedstate-2.6.2\proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>(androidx.lifecycle.SavedStateHandle);
 }
@@ -592,8 +592,8 @@
     <init>(android.app.Application,androidx.lifecycle.SavedStateHandle);
 }
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\c509999be105cd91b8df53679d1a2dfd\transformed\lifecycle-viewmodel-savedstate-2.6.2\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\d7260425e2af612e783d9061ccd0262f\transformed\rules\lib\META-INF\proguard\retrofit2.pro
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\c509999be105cd91b8df53679d1a2dfd\transformed\lifecycle-viewmodel-savedstate-2.6.2\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\d7260425e2af612e783d9061ccd0262f\transformed\rules\lib\META-INF\proguard\retrofit2.pro
 # Retrofit does reflection on generic parameters. InnerClasses is required to use Signature and
 # EnclosingMethod is required to use InnerClasses.
 -keepattributes Signature, InnerClasses, EnclosingMethod
@@ -624,8 +624,8 @@
 -if interface * { @retrofit2.http.* <methods>; }
 -keep,allowobfuscation interface <1>
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\d7260425e2af612e783d9061ccd0262f\transformed\rules\lib\META-INF\proguard\retrofit2.pro
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\091a0a6d9cd9187063370ef4540e2948\transformed\rules\lib\META-INF\com.android.tools\r8\coroutines.pro
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\d7260425e2af612e783d9061ccd0262f\transformed\rules\lib\META-INF\proguard\retrofit2.pro
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\091a0a6d9cd9187063370ef4540e2948\transformed\rules\lib\META-INF\com.android.tools\r8\coroutines.pro
 # When editing this file, update the following files as well:
 # - META-INF/proguard/coroutines.pro
 # - META-INF/com.android.tools/proguard/coroutines.pro
@@ -653,8 +653,8 @@
 
 # An annotation used for build tooling, won't be directly accessed.
 -dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\091a0a6d9cd9187063370ef4540e2948\transformed\rules\lib\META-INF\com.android.tools\r8\coroutines.pro
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\52fc135e6aaac76ddb3f56653c4dbd3d\transformed\rules\lib\META-INF\com.android.tools\r8-from-1.6.0\coroutines.pro
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\091a0a6d9cd9187063370ef4540e2948\transformed\rules\lib\META-INF\com.android.tools\r8\coroutines.pro
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\52fc135e6aaac76ddb3f56653c4dbd3d\transformed\rules\lib\META-INF\com.android.tools\r8-from-1.6.0\coroutines.pro
 # Allow R8 to optimize away the FastServiceLoader.
 # Together with ServiceLoader optimization in R8
 # this results in direct instantiation when loading Dispatchers.Main
@@ -678,15 +678,15 @@
     boolean getRECOVER_STACK_TRACES() return false;
 }
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\52fc135e6aaac76ddb3f56653c4dbd3d\transformed\rules\lib\META-INF\com.android.tools\r8-from-1.6.0\coroutines.pro
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\6a43efe54d0b255150cba2c0a7b7c544\transformed\versionedparcelable-1.1.1\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\52fc135e6aaac76ddb3f56653c4dbd3d\transformed\rules\lib\META-INF\com.android.tools\r8-from-1.6.0\coroutines.pro
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\6a43efe54d0b255150cba2c0a7b7c544\transformed\versionedparcelable-1.1.1\proguard.txt
 -keep class * implements androidx.versionedparcelable.VersionedParcelable
 -keep public class android.support.**Parcelizer { *; }
 -keep public class androidx.**Parcelizer { *; }
 -keep public class androidx.versionedparcelable.ParcelImpl
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\6a43efe54d0b255150cba2c0a7b7c544\transformed\versionedparcelable-1.1.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\5a8582e6f46e45b1f1c5738069d7f9d9\transformed\startup-runtime-1.1.1\proguard.txt
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\6a43efe54d0b255150cba2c0a7b7c544\transformed\versionedparcelable-1.1.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\5a8582e6f46e45b1f1c5738069d7f9d9\transformed\startup-runtime-1.1.1\proguard.txt
 # It's important that we preserve initializer names, given they are used in the AndroidManifest.xml.
 -keepnames class * extends androidx.startup.Initializer
 
@@ -700,8 +700,8 @@
 
 -assumenosideeffects class androidx.startup.StartupLogger { public static <methods>; }
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\5a8582e6f46e45b1f1c5738069d7f9d9\transformed\startup-runtime-1.1.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\4e0fc1e261732e0032aba5c2d3ad3600\transformed\rules\lib\META-INF\proguard\okhttp3.pro
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\5a8582e6f46e45b1f1c5738069d7f9d9\transformed\startup-runtime-1.1.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\4e0fc1e261732e0032aba5c2d3ad3600\transformed\rules\lib\META-INF\proguard\okhttp3.pro
 # JSR 305 annotations are for embedding nullability information.
 -dontwarn javax.annotation.**
 
@@ -714,8 +714,8 @@
 # OkHttp platform used only on JVM and when Conscrypt dependency is available.
 -dontwarn okhttp3.internal.platform.ConscryptPlatform
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\4e0fc1e261732e0032aba5c2d3ad3600\transformed\rules\lib\META-INF\proguard\okhttp3.pro
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\5a90247c0c514c838bcd10950a87d3ee\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\4e0fc1e261732e0032aba5c2d3ad3600\transformed\rules\lib\META-INF\proguard\okhttp3.pro
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\5a90247c0c514c838bcd10950a87d3ee\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -735,12 +735,12 @@
   @androidx.annotation.DoNotInline <methods>;
 }
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\5a90247c0c514c838bcd10950a87d3ee\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
-# The proguard configuration file for the following section is C:\Users\mario\.gradle\caches\transforms-3\91a4765373bac3d2b8f649a26cfb356d\transformed\rules\lib\META-INF\proguard\okio.pro
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\5a90247c0c514c838bcd10950a87d3ee\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is C:\Users\Charming\.gradle\caches\transforms-3\91a4765373bac3d2b8f649a26cfb356d\transformed\rules\lib\META-INF\proguard\okio.pro
 # Animal Sniffer compileOnly dependency to ensure APIs are compatible with older versions of Java.
 -dontwarn org.codehaus.mojo.animal_sniffer.*
 
-# End of content from C:\Users\mario\.gradle\caches\transforms-3\91a4765373bac3d2b8f649a26cfb356d\transformed\rules\lib\META-INF\proguard\okio.pro
+# End of content from C:\Users\Charming\.gradle\caches\transforms-3\91a4765373bac3d2b8f649a26cfb356d\transformed\rules\lib\META-INF\proguard\okio.pro
 # The proguard configuration file for the following section is <unknown>
 -ignorewarnings
 # End of content from <unknown>

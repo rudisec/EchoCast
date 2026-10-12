@@ -3734,6 +3734,7 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id switchEnable
+id switchMonitor
 id switchWidget
 id tabLayout
 id tabMode
@@ -4165,6 +4166,8 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string monitor_playback
+string monitor_playback_description
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name

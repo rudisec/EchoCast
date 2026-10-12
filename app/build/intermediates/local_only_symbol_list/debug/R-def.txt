@@ -118,6 +118,7 @@ id progressBar
 id progressBarTts
 id recyclerViewPlaylist
 id switchEnable
+id switchMonitor
 id tabLayout
 id toolbar
 id tvAudioName
@@ -168,6 +169,8 @@ string enable_playback_description
 string enter_text_to_generate
 string generate_and_add_to_playlist
 string grant_permission
+string monitor_playback
+string monitor_playback_description
 string name_updated
 string no_audio_files
 string no_file_selected
